@@ -1,5 +1,7 @@
 name: Deploy EC2 stack # Workflow name shown in the Actions tab
 
+#new
+
 on: # Events that start the workflow
   push: # Run when code is pushed
     branches: [main] # Only pushes to main
